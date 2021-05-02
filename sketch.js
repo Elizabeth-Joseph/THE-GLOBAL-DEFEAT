@@ -105,7 +105,9 @@ function draw() {
  if(keyDown("space")){
    runner.velocityY= -10;
  }
-  
+  camera.position.x=width/2;
+    camera.position.y=runner.y;
+    
   //spawning the obstacles
   spawnObstacles();
   
